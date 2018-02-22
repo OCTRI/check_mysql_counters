@@ -51,6 +51,7 @@ if(isset($options['P'])) {
 } else {
     $port = 3306;
 }
+// Modified for OCTRI to support reading /root/.my.cnf
 $password = '';
 if(isset($options['u'])) {
     $username = $options['u'];
